@@ -1,0 +1,17 @@
+---
+headline: "Your browser is out-of-date!"
+message: "Update your browser to view this website correctly."
+link:
+    url: "http://outdatedbrowser.com/"
+    id: "btnUpdateBrowser"
+    title: "Update my browser now"
+close:
+    id: "btnCloseUpdateBrowser"
+    url: "#"
+    title: "close"
+---
+<section id="outdated" class="partial controller js-hidden" data-partial="common/outdatedbrowser" data-controller="agency-pkg-common/partials/common/OutdatedBrowser">
+    <h6>{{headline}}</h6>
+    <p>{{{message}}} {{{mixin "agency-pkg-elements/link" link}}}</p>
+    <p class="last">{{#mixin "agency-pkg-elements/link" close}}{{#content "title"}}&times;{{/content}}{{/mixin}}</p>
+</section>

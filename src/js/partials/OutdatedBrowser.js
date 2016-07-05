@@ -2,7 +2,7 @@
 
 require("style!outdated-browser/outdatedbrowser/outdatedbrowser.css");
 var outdatedBrowser = require('exports?outdatedBrowser!outdated-browser/outdatedbrowser/outdatedbrowser');
-var Controller = require('../../base/Controller');
+var Controller = require('agency-pkg-base/Controller');
 
 module.exports = Controller.extend({
 

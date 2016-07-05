@@ -1,6 +1,6 @@
 "use strict";
 
-var Controller = require('../../base/Controller');
+var Controller = require('agency-pkg-base/Controller');
 var blockAdBlock = require('exports?blockAdBlock!blockadblock');
 
 module.exports = Controller.extend({

@@ -1,7 +1,6 @@
 'use strict';
 
-var Controller = require('../../base/Controller');
-
+var Controller = require('agency-pkg-base/Controller');
 
 module.exports = Controller.extend({
 

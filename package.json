@@ -35,6 +35,6 @@
         "outdated-browser": "^1.0.2"
     },
     "devDependencies": {
-        "agency-boilerplate": "git+https://git@github.com/StephanGerbeth/agency-boilerplate.git#feature/packages"
+        "agency-boilerplate": "git+https://git@github.com/StephanGerbeth/agency-boilerplate.git#feature/flat-files"
     }
 }

@@ -1,58 +1,44 @@
-.partial[data-partial="common/breakpoint"] {
-  position:fixed;
-  bottom:10px;
-  right:10px;
-
-  padding:10px 20px 7px;
-  border-radius:5px;
-  z-index:99999;
-
-  background:rgba(0,0,0,.5);
-  color:white;
-  font-weight:bold;
+.pkg[data-pkg="agency-pkg-common/breakpoint"] {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  padding: 10px 20px 7px;
+  border-radius: 5px;
+  z-index: 99999;
+  background: rgba(0, 0, 0, .5);
+  color: white;
+  font-weight: bold;
   font-family: Helvetica Neue, Helvetica, Arial;
-
-
-  &:before{
+  &:before {
     $retina: 2x;
     $content: MOBILE PORTRAIT (default);
-
     content: '$content';
-
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
       content: '$content @$retina';
     }
-
     @media (--screen-xs) {
       $content: MOBILE LANDSCAPE (xs);
-
       content: '$content';
       @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
         content: '$content @$retina';
       }
     }
-
     @media (--screen-sm) {
       $content: TABLET PORTRAIT (sm);
-
       content: '$content';
       @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
         content: '$content @$retina';
       }
     }
-
     @media (--screen-md) {
       $content: TABLET LANDSCAPE (md);
-
       content: '$content';
       @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
         content: '$content @$retina';
       }
     }
-
     @media (--screen-lg) {
       $content: DESKTOP (lg);
-
       content: '$content';
       @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
         content: '$content @$retina';

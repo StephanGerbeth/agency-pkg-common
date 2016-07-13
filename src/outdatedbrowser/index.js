@@ -18,4 +18,5 @@ module.exports = Controller.extend({
 
         $(this.el).removeClass('js-hidden');
     }
+    
 });
